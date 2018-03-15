@@ -1,14 +1,17 @@
 package test.thread.demo;
 
 import test.thread.bean.Student;
+import test.thread.bean.Teacher;
 
 public class ThreadDemo {
 
 	public static void main(String[] args) {
-//		Person p1 = new Person();
-//		Person p2 = new Person();
-//		p1.start();
-//		p2.start();
+		// Person p1 = new Person();
+		// Person p2 = new Person();
+		// p1.start();
+		// p2.start();
+		Teacher t = new Teacher();
+		System.out.println(t.hashCode());
 		Student s1 = new Student("zhangsan");
 		Student s2 = new Student("lisi");
 		Thread t1 = new Thread(s1);
