@@ -1,6 +1,5 @@
 package test.thread.demo;
 
-import test.thread.bean.Person;
 import test.thread.bean.Student;
 
 public class ThreadDemo {
